@@ -2,6 +2,9 @@
 
 A simple leave management system for employees.
 
+### Snapshot :
+<img src="./snap.png" width="400px"/>
+
 Main Features:
 - Manage leaves for employees
 - Manage leave requests for employees
