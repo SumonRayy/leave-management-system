@@ -3,13 +3,13 @@
 A simple leave management system for employees.
 
 ### Snapshot :
-<img src="./snap.png" width="400px"/>
+<img src="./snap.png" width="500px"/>
 
 Main Features:
 - Manage leaves for employees
 - Manage leave requests for employees
 
-Made with 
+Made with :
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 - [Font-Awesome](https://fontawesome.com/v4.7.0/icons/)
