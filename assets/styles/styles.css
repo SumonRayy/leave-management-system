@@ -64,15 +64,19 @@ body {
     color: var(--dark-text-color);
 }
 
-.form {
+.form,.form-register {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.form > input {
-    width: 100%;
+
+.form > input,
+.form-register > input,
+.fullname > input,
+.password_fields > input{
+
     height: 40px;
     margin-bottom: 10px;
     padding: 10px;
@@ -91,8 +95,8 @@ body {
     border: 1px solid #ebebeb;
 }
 
-.form > button {
-    width: 80%;
+.form > button, .form-register > button {
+    width: 60%;
     height: 40px;
     margin-bottom: 10px;
     padding: 10px;
@@ -107,13 +111,44 @@ body {
     transition: 0.5s ease;
     
 }
-    .form > button:hover {
+    .form > button:hover, .form-register > button:hover {
         width: 100%;
         transition: 0.5s ease;
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
         animation: gradientBG 15s ease infinite;
     }
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-size: 1rem;
+    font-family: 'Cairo', sans-serif;
+    color: var(--dark-text-color);
+}
+
+.terms > input {
+    margin-right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.form-container > span {
+    font-size: 1rem;
+    font-family: 'Cairo', sans-serif;
+    color: var(--dark-text-color);
+}
 
 /* dashboard.html */
 
